@@ -1,3 +1,11 @@
+body {
+  background-color: rgb(60, 82, 116)
+}
+
+.site-logo {
+  
+}
+
 nav {
   background-color: rgb(47, 95, 103);
   top: 0;
@@ -8,6 +16,7 @@ nav {
 nav ul li {
   display: inline;
   padding: 0 5%;
+  font-family: sans-serif;
 }
 
 nav ul li a {
