@@ -1,0 +1,16 @@
+nav {
+  background-color: rgb(47, 95, 103);
+  top: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 5%;
+}
+
+nav ul li a {
+  color: rgb(251, 217, 158);
+  text-decoration: none;
+}
