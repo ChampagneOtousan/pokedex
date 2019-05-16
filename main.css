@@ -3,11 +3,14 @@ body {
 }
 
 .site-logo {
-  
+  z-index: -1;
+  height: 50px;
+  width: 50px;
 }
 
 nav {
   background-color: rgb(47, 95, 103);
+  background-size: 30%;
   top: 0;
   font-size: 30px;
   text-align: center;
@@ -22,4 +25,5 @@ nav ul li {
 nav ul li a {
   color: rgb(251, 217, 158);
   text-decoration: none;
+  z-index: 1;
 }
