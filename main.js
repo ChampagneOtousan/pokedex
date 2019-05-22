@@ -36,3 +36,7 @@ displayUser = () => {
     cont.innerText = pokemon.id
     document.body.appendChild(cont)
 }
+
+function pokemonShow() {
+  
+}
