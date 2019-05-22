@@ -13,11 +13,12 @@ requestAPI = (name) => {
             pokemon = new Pokemon(name, id, attack, speed,special_defense,hp, defense)
             console.log(pokemon)
             displayUser()
-            }
-    };
+  }
+};
     xhttp.open("GET", `https://pokeapi.co/api/v2/pokemon/${name}`, true);
     xhttp.send();
 }
+
 class Pokemon {
   constructor(name, id, attack, speed, special_defense, hp, defense) {
     this.name = name
