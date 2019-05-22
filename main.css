@@ -3,7 +3,6 @@ body {
 }
 
 .site-logo {
-  z-index: -1;
   height: 30px;
   width: 30px;
   margin-right: auto;
@@ -23,13 +22,12 @@ nav {
 nav ul li {
   display: inline;
   font-family: sans-serif;
-  padding: 0 5%;
+  padding: 2% 5%;
 }
 
 nav ul li a {
   color: rgb(251, 217, 158);
   text-decoration: none;
-  z-index: 1;
 }
 
 nav ul li a:hover {

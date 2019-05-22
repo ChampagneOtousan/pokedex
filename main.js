@@ -30,31 +30,8 @@ class Pokemon {
   }
 }
 
-// requestAPI()
 displayUser = () => {
     let cont = document.createElement('div')
-    // let h1 = document.createElement('h1')
-    // let p1 = document.createElement('p')
-    // let img = document.createElement('img')
-
     cont.innerText = pokemon.id
-    // p1.innerText = user['followers']
-    // img.setAttribute('src', user['image'])
-    // cont.appendChild(h1)
-    // cont.appendChild(p1)
-    // cont.appendChild(img)
     document.body.appendChild(cont)
 }
-
-// class Pokemon {
-//   constructor(name, id, ability, attack, defense, speed) {
-//     this.name = name
-//     this.id = id
-//     this.ability = []
-//     this.attack = attack
-//     this.defense = defense
-//     this.speed = speed
-//   }
-// }
-
-// poke1 = new Pokemon()
