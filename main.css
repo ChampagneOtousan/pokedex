@@ -9,15 +9,19 @@ body {
   margin-right: auto;
 }
 
+#logo {
+  height: 120px;
+  width: 150px;
+}
+
 nav {
   background-color: rgb(47, 95, 103);
-  font-size: 20px;
+  font-size: 22px;
   text-align: right;
 }
 
 nav ul li {
   display: inline;
-  padding: 0 5%;
   font-family: sans-serif;
   padding: 0 5%;
 }
@@ -26,4 +30,8 @@ nav ul li a {
   color: rgb(251, 217, 158);
   text-decoration: none;
   z-index: 1;
+}
+
+nav ul li a:hover {
+  color: rgb(36, 237, 213);
 }
