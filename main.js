@@ -37,6 +37,6 @@ displayUser = () => {
     document.body.appendChild(cont)
 }
 
-function pokemonShow() {
-  
+function showPokemon() {
+
 }
