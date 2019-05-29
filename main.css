@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(60, 82, 116)
+  background-color: rgb(60, 82, 116);
 }
 
 .site-logo {
@@ -36,4 +36,9 @@ nav ul li a:hover {
 
 h3{
   display: block;
+}
+
+#picture {
+  transform: scale(4);
+  padding-left: 25%;
 }
