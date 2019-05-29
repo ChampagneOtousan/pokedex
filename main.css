@@ -9,8 +9,9 @@ body {
 }
 
 #logo {
-  height: 120px;
-  width: 150px;
+  height: 150px;
+  width: 200px;
+  top: 0;
 }
 
 nav {
